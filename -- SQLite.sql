@@ -1,0 +1,3 @@
+-- SQLite
+INSERT INTO lecture_INFORMATION (ID, name) VALUES (3,'Nick'); 
+SELECT * FROM `lecture_INFORMATION`;
