@@ -1,0 +1,139 @@
+{
+  "canvas": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": true,
+      "columnPrimaryKey": true,
+      "columnUnique": true,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "graphql",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase"
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "LECTURE_INFORMATION",
+        "comment": "",
+        "columns": [
+          {
+            "name": "NAME",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "c0c78dd6-d14f-4ca5-bbe9-06b293653492",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "name": "PHONE NUMBER",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "1062e26f-8a3b-41ac-aa35-52547de68b96",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 103,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "id": "5ae1ce9f-27cb-42b0-92d4-c81fc9541738",
+        "ui": {
+          "active": false,
+          "top": 107,
+          "left": 139,
+          "widthName": 148,
+          "widthComment": 60,
+          "zIndex": 61
+        }
+      },
+      {
+        "name": "STUDENTS_INFORMATION",
+        "comment": "",
+        "columns": [
+          {
+            "name": "NAME",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "a12e45e9-5a9d-432f-b50f-fb5493dc457e",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "id": "82064bb8-122f-4d35-ae9a-a51f74fccf49",
+        "ui": {
+          "active": false,
+          "top": 289,
+          "left": 202,
+          "widthName": 160,
+          "widthComment": 60,
+          "zIndex": 64
+        }
+      }
+    ],
+    "tableFocus": null,
+    "edit": null,
+    "copyColumns": [],
+    "columnDraggable": null
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [],
+    "draw": null
+  }
+}
