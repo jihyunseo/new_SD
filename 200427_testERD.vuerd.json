@@ -514,7 +514,105 @@
         }
       }
     ],
-    "tableFocus": null,
+    "tableFocus": {
+      "focusName": false,
+      "focusComment": false,
+      "focusColumns": [
+        {
+          "selected": true,
+          "focusName": true,
+          "focusDataType": false,
+          "focusNotNull": false,
+          "focusDefault": false,
+          "focusComment": false,
+          "column": {
+            "name": "d",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "id": "1a67a6fa-fa1d-4fb5-a504-b203dc0fe83f",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        }
+      ],
+      "currentFocusTable": false,
+      "currentColumn": {
+        "name": "d",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "id": "1a67a6fa-fa1d-4fb5-a504-b203dc0fe83f",
+        "option": {
+          "autoIncrement": false,
+          "primaryKey": false,
+          "unique": false,
+          "notNull": false
+        },
+        "ui": {
+          "active": false,
+          "pk": false,
+          "fk": false,
+          "pfk": false,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        }
+      },
+      "table": {
+        "name": "NEW",
+        "comment": "",
+        "columns": [
+          {
+            "name": "d",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "id": "1a67a6fa-fa1d-4fb5-a504-b203dc0fe83f",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "id": "38bb81e3-79d5-47b0-903a-126eef0d1bde",
+        "ui": {
+          "active": true,
+          "top": 102,
+          "left": 200,
+          "widthName": 60,
+          "widthComment": 60,
+          "zIndex": 198
+        }
+      }
+    },
     "edit": null,
     "copyColumns": [],
     "columnDraggable": null

@@ -25,15 +25,15 @@
   "table": {
     "tables": [
       {
-        "name": "INDEPENDANT",
+        "name": "TABLE",
         "comment": "",
         "columns": [
           {
             "name": "ID",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "1ee07c8a-2602-4cb6-8752-50e1b783afdf",
+            "id": "2ad3dd6d-b992-4dd1-9b03-38c37e096348",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -54,9 +54,9 @@
           {
             "name": "NAME",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "f603f499-7177-4bcb-a764-f641c22089af",
+            "id": "0d524ec1-6bb8-40fb-aeaf-44ee342c0e05",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -75,34 +75,11 @@
             }
           },
           {
-            "name": "NICKNAME",
+            "name": "AGE",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "6db032f5-463f-4994-801e-cfebf8d10131",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 69,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          },
-          {
-            "name": "RULE",
-            "comment": "",
-            "dataType": "TEXT",
-            "default": "",
-            "id": "ff2d730b-e3cc-4800-a480-0b8de28acd52",
+            "id": "9b5dd6aa-c739-4b27-af92-bce286a00273",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -121,11 +98,34 @@
             }
           },
           {
-            "name": "ROOM",
+            "name": "ADDRESS",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "f68287d6-f8b2-4067-b6ff-bdae12533241",
+            "id": "3e947e8b-f020-4032-8726-c12819901954",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "name": "SALARY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "id": "fbbd33d3-540b-4917-9a56-12fa1d094d69",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -144,75 +144,14 @@
             }
           }
         ],
-        "id": "593fab12-8ccb-48dc-b401-460270be5a04",
+        "id": "a84c34db-1c09-4e3d-aaa0-db83d00bdf3d",
         "ui": {
           "active": true,
-          "top": 110,
-          "left": 295,
-          "widthName": 90,
+          "top": 100,
+          "left": 200,
+          "widthName": 60,
           "widthComment": 60,
-          "zIndex": 110
-        }
-      },
-      {
-        "name": "IDEOLOGY",
-        "comment": "",
-        "columns": [
-          {
-            "name": "ID",
-            "comment": "",
-            "dataType": "TEXT",
-            "default": "",
-            "id": "d786481a-4a67-4475-a77f-dc7ee2afc7d1",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          },
-          {
-            "name": "CONTENTS",
-            "comment": "",
-            "dataType": "TEXT",
-            "default": "",
-            "id": "9e54a55e-05ff-4978-98bd-3456ee1ef489",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 68,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          }
-        ],
-        "id": "6663cac2-b3b0-4ab3-8209-177046898a68",
-        "ui": {
-          "active": false,
-          "top": 306,
-          "left": 305,
-          "widthName": 64,
-          "widthComment": 60,
-          "zIndex": 87
+          "zIndex": 2
         }
       }
     ],
@@ -230,9 +169,9 @@
           "column": {
             "name": "ID",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "1ee07c8a-2602-4cb6-8752-50e1b783afdf",
+            "id": "2ad3dd6d-b992-4dd1-9b03-38c37e096348",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -261,9 +200,9 @@
           "column": {
             "name": "NAME",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "f603f499-7177-4bcb-a764-f641c22089af",
+            "id": "0d524ec1-6bb8-40fb-aeaf-44ee342c0e05",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -290,11 +229,11 @@
           "focusDefault": false,
           "focusComment": false,
           "column": {
-            "name": "NICKNAME",
+            "name": "AGE",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "6db032f5-463f-4994-801e-cfebf8d10131",
+            "id": "9b5dd6aa-c739-4b27-af92-bce286a00273",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -306,7 +245,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 69,
+              "widthName": 60,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -321,11 +260,11 @@
           "focusDefault": false,
           "focusComment": false,
           "column": {
-            "name": "RULE",
+            "name": "ADDRESS",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "ff2d730b-e3cc-4800-a480-0b8de28acd52",
+            "id": "3e947e8b-f020-4032-8726-c12819901954",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -352,11 +291,11 @@
           "focusDefault": false,
           "focusComment": false,
           "column": {
-            "name": "ROOM",
+            "name": "SALARY",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "f68287d6-f8b2-4067-b6ff-bdae12533241",
+            "id": "fbbd33d3-540b-4917-9a56-12fa1d094d69",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -378,11 +317,11 @@
       ],
       "currentFocusTable": false,
       "currentColumn": {
-        "name": "ROOM",
+        "name": "SALARY",
         "comment": "",
-        "dataType": "TEXT",
+        "dataType": "",
         "default": "",
-        "id": "f68287d6-f8b2-4067-b6ff-bdae12533241",
+        "id": "fbbd33d3-540b-4917-9a56-12fa1d094d69",
         "option": {
           "autoIncrement": false,
           "primaryKey": false,
@@ -401,15 +340,15 @@
         }
       },
       "table": {
-        "name": "INDEPENDANT",
+        "name": "TABLE",
         "comment": "",
         "columns": [
           {
             "name": "ID",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "1ee07c8a-2602-4cb6-8752-50e1b783afdf",
+            "id": "2ad3dd6d-b992-4dd1-9b03-38c37e096348",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -430,9 +369,9 @@
           {
             "name": "NAME",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "f603f499-7177-4bcb-a764-f641c22089af",
+            "id": "0d524ec1-6bb8-40fb-aeaf-44ee342c0e05",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -451,34 +390,11 @@
             }
           },
           {
-            "name": "NICKNAME",
+            "name": "AGE",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "6db032f5-463f-4994-801e-cfebf8d10131",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 69,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          },
-          {
-            "name": "RULE",
-            "comment": "",
-            "dataType": "TEXT",
-            "default": "",
-            "id": "ff2d730b-e3cc-4800-a480-0b8de28acd52",
+            "id": "9b5dd6aa-c739-4b27-af92-bce286a00273",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -497,11 +413,34 @@
             }
           },
           {
-            "name": "ROOM",
+            "name": "ADDRESS",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
-            "id": "f68287d6-f8b2-4067-b6ff-bdae12533241",
+            "id": "3e947e8b-f020-4032-8726-c12819901954",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "name": "SALARY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "id": "fbbd33d3-540b-4917-9a56-12fa1d094d69",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -520,14 +459,14 @@
             }
           }
         ],
-        "id": "593fab12-8ccb-48dc-b401-460270be5a04",
+        "id": "a84c34db-1c09-4e3d-aaa0-db83d00bdf3d",
         "ui": {
           "active": true,
-          "top": 110,
-          "left": 295,
-          "widthName": 90,
+          "top": 100,
+          "left": 200,
+          "widthName": 60,
           "widthComment": 60,
-          "zIndex": 110
+          "zIndex": 2
         }
       }
     },
